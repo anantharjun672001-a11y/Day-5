@@ -24,7 +24,7 @@ console.log(IsleapYear ? "Leap Year" : "Not A Leap Year"); */
 
 //switch statements
 
-let month = parseInt (prompt("Enter a month to find the number of days in that month"));
+/* let month = parseInt (prompt("Enter a month to find the number of days in that month"));
 
 switch(month){
     case 1 : console.log(31);
@@ -52,4 +52,13 @@ switch(month){
     case 12 : console.log(31);
     break;
     default : console.log("Enter a number between 1 to 12");
-}
+} */
+
+
+// Nested for loop
+ for(let i =1; i<=4 ; i=i+1){
+    for (let j = 1; j<=4; j=j+1){
+        console.log("i:"+i, "j:"+j);
+        
+    }
+ }
