@@ -79,7 +79,7 @@ let fruits = ["apple", "orange", "mango"]
 // push() and pop() : Add or remove elements from the end of an array
 
 //Example:
-fruits.push("banana");
+/* fruits.push("banana");
 console.log(fruits);
 
 fruits.pop();
@@ -91,4 +91,57 @@ fruits.unshift("kiwi");
 console.log(fruits);
 
 fruits.shift();
+console.log(fruits); */
+
+
+// Slice() and splice() : Extract or modify parts of an array
+
+let newArr = fruits.slice(1,3)
+console.log(newArr);
+
+
 console.log(fruits);
+
+
+fruits.splice(0,1,"kiwi")
+console.log(fruits);
+
+// Objects
+
+let person = {
+    name: "john",
+    age: 35,
+    city: "chennai"
+}
+
+console.log(person);
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.city);
+
+let keys = Object.keys(person);
+let values = Object.values(person);
+
+console.log(keys)
+console.log(values);
+
+//syntax
+
+/* for(let variablename in objectname){
+   //block of code
+} */
+
+
+for(let key in person){
+    console.log(person[key]);
+}
+
+// JSON (Javascript Object Notation)
+let persons = {
+    "name": "John",
+    "age": "35",
+    "city": "chennai"
+}
+
+console.log(persons);
