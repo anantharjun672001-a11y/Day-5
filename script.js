@@ -56,9 +56,39 @@ switch(month){
 
 
 // Nested for loop
- for(let i =1; i<=4 ; i=i+1){
+ /* for(let i =1; i<=4 ; i=i+1){
     for (let j = 1; j<=4; j=j+1){
         console.log("i:"+i, "j:"+j);
         
     }
- }
+ } */
+
+ // Array & Array Methods
+/* 
+let fruits = ["apple", "orange", "mango"]
+for(let i=0;i<fruits.length;i++){
+    console.log(fruits[i])
+} */
+
+
+//Common Array Methods
+let fruits = ["apple", "orange", "mango"]
+
+
+
+// push() and pop() : Add or remove elements from the end of an array
+
+//Example:
+fruits.push("banana");
+console.log(fruits);
+
+fruits.pop();
+console.log(fruits);
+
+// shift() and unshift(): Add or remove elements from the start of an array
+
+fruits.unshift("kiwi");
+console.log(fruits);
+
+fruits.shift();
+console.log(fruits);
